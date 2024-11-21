@@ -1,0 +1,30 @@
+{
+    "tracks": [
+        {
+            "title": "HI ",
+            "artist": "helo",
+            "album": "muffin",
+            "duration": "2:00"
+        },
+        {
+            "title": "HI",
+            "artist": "hello",
+            "album": "STR",
+            "duration": "muffin"
+        },
+        {
+            "title": "Shauntie",
+            "artist": "Jae Jed Eduard Edgar Jade",
+            "album": "Multipersonality Disorder",
+            "duration": "99:99"
+        }
+    ],
+    "playlist": [
+        {
+            "title": "HI",
+            "artist": "hello",
+            "album": "STR",
+            "duration": "muffin"
+        }
+    ]
+}
