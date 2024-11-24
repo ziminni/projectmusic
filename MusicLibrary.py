@@ -49,3 +49,7 @@ class MusicLibrary:
         else:
             for i, playlist in enumerate(self.playlists, start=1):
                 print(f"{i}. {playlist['name']} - {len(playlist['tracks'])} tracks")
+                
+
+if __name__ == "__main__":
+    library = MusicLibrary()
