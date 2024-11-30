@@ -11,40 +11,62 @@ class MusicQueue:
         self.currentIndex = 0
         self.repeat = False
         self.shuffle = False
+        self.repeatSong = None
 
     def addTrack(self, track: Track):
         self.queue.append(track)
         print(f"TRACK '{track.getTitle()}' ADDED TO THE QUEUE")
 
+    def toggleRepeat(self, song=None):
+        if song:
+            if self.repeat and self.repeatSong  == song:
+                self.repeat = False
+                self.repeatSong = None
+                print(f"REPEAT IS OFF FOR '{song.getTitle()}'")
+            else:
+                self.repeat = True
+                self.repeatSong = song
+                print(f"REPEAT IS ON FOR '{song.getTitle()}'")
+        else:
+            self.repeat = not self.repeat
+            self.repeatSong = None
+            print(f"REPEAT IS NOW {'ON' if self.repeat else 'OFF'}")
+
     def playNext(self):
         if not self.queue:
             print("QUEUE IS EMPTY")
             return None
-        if self.repeat and self.currentIndex == len(self.queue) - 1:
-            self.currentIndex = 0
-        elif self.currentIndex < len(self.queue) - 1:
+        if self.repeat and self.repeatSong:
+            print(f"REPEATING '{self.repeatSong.getTitle()}'")
+            return self.repeatSong 
+        if self.currentIndex < len(self.queue) - 1:
             self.currentIndex += 1
         else:
-            print("END OF QUEUE")
-            return None
+            if self.repeat:
+                self.currentIndex = 0  
+                print(f"REPEATING QUEUE FROM START")
+            else:
+                print("END OF QUEUE")
+                return None
         return self.queue[self.currentIndex]
-
+    
     def playPrevious(self):
         if not self.queue:
             print("QUEUE IS EMPTY.")
             return None
-        if self.repeat and self.currentIndex == 0:
-            self.currentIndex = len(self.queue) - 1
-        elif self.currentIndex > 0:
+        if self.repeat and self.repeatSong:
+            print(f"REPEATING '{self.repeatSong.getTitle()}'")
+            return self.repeatSong
+        if self.currentIndex > 0:
             self.currentIndex -= 1
         else:
-            print("START OF QUEUE")
-            return None
+            if self.repeat:
+                self.currentIndex = len(self.queue) - 1  
+                print(f"REPEATING QUEUE FROM END")
+            else:
+                print("START OF QUEUE")
+                return None
         return self.queue[self.currentIndex]
-
-    def toggleRepeat(self):
-        self.repeat = not self.repeat
-        print(f"REPEAT IS NOW {'ON' if self.repeat else 'OFF'}")
 
     def toggleShuffle(self):
         if self.shuffle:
@@ -55,7 +77,7 @@ class MusicQueue:
             self.unshuffledQueue = self.queue[:]
             random.shuffle(self.queue)
             self.shuffle = True
-            print("SHUFLE IS ON")
+            print("SHUFFLE IS ON")
 
     def currentTrack(self):
         if self.queue:
@@ -63,6 +85,10 @@ class MusicQueue:
         return None
 
     def displayQueue(self):
+        if not self.queue:
+            print("QUEUE IS EMPTY")
+            return
+        print("CURRENT QUEUE:")
         for i, track in enumerate(self.queue):
             marker = "->" if i == self.currentIndex else "  "
             print(f"{marker} {track.getTitle()} - {track.getArtist()} ({track.getDuration()})")
@@ -93,16 +119,16 @@ class MusicQueue:
 # TEST SIGURO
 queue = MusicQueue()
 
-queue.add_track(Track("Song A", "Artist 1", "03:15"))
-queue.add_track(Track("Song B", "Artist 2", "04:22"))
-queue.add_track(Track("Song C", "Artist 3", "02:58"))
+queue.addTrack(Track("Song A", "Artist 1", "Album A", "03:15"))
+queue.addTrack(Track("Song B", "Artist 2", "Album B", "04:22"))
+queue.addTrack(Track("Song C", "Artist 3", "Album C", "02:58"))
 
-queue.toggle_shuffle()
-queue.display_queue()
-queue.toggle_shuffle()
-queue.display_queue()
+queue.toggleShuffle()
+queue.displayQueue()
+queue.toggleShuffle()
+queue.displayQueue()
 
-queue.toggle_repeat()
-queue.play_next()
-queue.play_next()
-queue.play_next()
+queue.toggleRepeat()
+queue.playNext()
+queue.playNext()
+queue.playNext()
