@@ -1,107 +1,117 @@
 {
-    "tracks": [
+    "counter": 6,
+    "Tracks": [
         {
-            "title": "Gangnam Style",
-            "artist": "PSY",
-            "album": "PSY 6 (Six Rules, Part 1)",
-            "duration": "03:39"
+            "id": 1,
+            "title": "Let it Grow",
+            "artist": "Lorax Singers",
+            "album": "Dr.Seus'The Lorax",
+            "duration": "03:30"
         },
         {
-            "title": "GAS GAS GAS EXTENDED MIX",
-            "artist": "Manuel",
-            "album": "Gaseous Extended",
-            "duration": "04:30"
+            "id": 2,
+            "title": "Imong mama",
+            "artist": "Padayon",
+            "album": "HEHE",
+            "duration": "03:59"
         },
         {
-            "title": "Counting Star ",
-            "artist": "One Republic",
-            "album": "Numerous Stars",
-            "duration": "04:17"
+            "id": 3,
+            "title": "Imong mama ",
+            "artist": "Yot",
+            "album": "hihi",
+            "duration": "03:23"
         },
         {
-            "title": "Gangnam Style",
-            "artist": "PSY",
-            "album": "PSY 6 (Six Rules, Part 1)",
-            "duration": "03:39"
+            "id": 4,
+            "title": "Krismar",
+            "artist": "Mullet Check",
+            "album": "AHYEAAAAA",
+            "duration": "04:16"
         },
         {
-            "title": "GAS GAS GAS EXTENDED MIX",
-            "artist": "Manuel",
-            "album": "Gaseous Extended",
-            "duration": "04:30"
+            "id": 5,
+            "title": "Hugh",
+            "artist": "Jackass",
+            "album": "HEHE",
+            "duration": "03:33"
         },
         {
-            "title": "Counting Star ",
-            "artist": "One Republic",
-            "album": "Numerous Stars",
-            "duration": "04:17"
+            "id": 6,
+            "title": "asdasd",
+            "artist": "asda",
+            "album": "asda",
+            "duration": "02:03"
         },
         {
-            "title": "Gangnam Style",
-            "artist": "PSY",
-            "album": "PSY 6 (Six Rules, Part 1)",
-            "duration": "03:39"
+            "id": 6,
+            "title": "adasda",
+            "artist": "asdada",
+            "album": "asda",
+            "duration": "02:03"
         },
         {
-            "title": "GAS GAS GAS EXTENDED MIX",
-            "artist": "Manuel",
-            "album": "Gaseous Extended",
-            "duration": "04:30"
+            "id": 6,
+            "title": "asdasdasd",
+            "artist": "asdasd",
+            "album": "asdasd",
+            "duration": "06:52"
         },
         {
-            "title": "Counting Star ",
-            "artist": "One Republic",
-            "album": "Numerous Stars",
-            "duration": "04:17"
+            "id": 6,
+            "title": "PODCAST",
+            "artist": "Shauntie",
+            "album": "jaed",
+            "duration": "99:99"
         },
         {
-            "title": "Gangnam Style",
-            "artist": "PSY",
-            "album": "PSY 6 (Six Rules, Part 1)",
-            "duration": "03:39"
+            "id": 6,
+            "title": "SIGMA",
+            "artist": "shawn",
+            "album": "hihi",
+            "duration": "99:99"
         },
         {
-            "title": "GAS GAS GAS EXTENDED MIX",
-            "artist": "Manuel",
-            "album": "Gaseous Extended",
-            "duration": "04:30"
+            "id": 6,
+            "title": "Skibidi",
+            "artist": "Je",
+            "album": "Jed man gud >:((",
+            "duration": "96:55"
         },
         {
-            "title": "Counting Star ",
-            "artist": "One Republic",
-            "album": "Numerous Stars",
-            "duration": "04:17"
+            "id": 6,
+            "title": "sdads",
+            "artist": "asdasd",
+            "album": "asdsad",
+            "duration": "02:03"
         },
         {
-            "title": "Gangnam Style",
-            "artist": "PSY",
-            "album": "PSY 6 (Six Rules, Part 1)",
-            "duration": "03:39"
+            "id": 6,
+            "title": "sda",
+            "artist": "asd",
+            "album": "ada",
+            "duration": "02:03"
         },
         {
-            "title": "GAS GAS GAS EXTENDED MIX",
-            "artist": "Manuel",
-            "album": "Gaseous Extended",
-            "duration": "04:30"
+            "id": 6,
+            "title": "adasd",
+            "artist": "asdadas",
+            "album": "asda",
+            "duration": "02:03"
         },
         {
-            "title": "Counting Star ",
-            "artist": "One Republic",
-            "album": "Numerous Stars",
-            "duration": "04:17"
+            "id": 6,
+            "title": "asd",
+            "artist": "asd",
+            "album": "asd",
+            "duration": "02:03"
         },
         {
-            "title": "Gangnam Style",
-            "artist": "PSY",
-            "album": "PSY 6 (Six Rules, Part 1)",
-            "duration": "03:39"
-        },
-        {
-            "title": "GAS GAS GAS EXTENDED MIX",
-            "artist": "Manuel",
-            "album": "Gaseous Extended",
-            "duration": "04:30"
+            "id": 6,
+            "title": "Shauntie",
+            "artist": "Velasco",
+            "album": "BSIT 2A",
+            "duration": "04:04"
         }
-    ],
-    "playlist": []
+    ]
 }
