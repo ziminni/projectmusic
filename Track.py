@@ -1,5 +1,5 @@
 
-
+# inefficient calc duration, apply sad to
 class Track:
     counter = 0
     def __init__(self, id, title, artist, album, duration):

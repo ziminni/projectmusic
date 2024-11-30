@@ -1,5 +1,5 @@
 {
-    "counter": 6,
+    "counter": 7,
     "Tracks": [
         {
             "id": 1,
@@ -42,76 +42,7 @@
             "artist": "asda",
             "album": "asda",
             "duration": "02:03"
-        },
-        {
-            "id": 6,
-            "title": "adasda",
-            "artist": "asdada",
-            "album": "asda",
-            "duration": "02:03"
-        },
-        {
-            "id": 6,
-            "title": "asdasdasd",
-            "artist": "asdasd",
-            "album": "asdasd",
-            "duration": "06:52"
-        },
-        {
-            "id": 6,
-            "title": "PODCAST",
-            "artist": "Shauntie",
-            "album": "jaed",
-            "duration": "99:99"
-        },
-        {
-            "id": 6,
-            "title": "SIGMA",
-            "artist": "shawn",
-            "album": "hihi",
-            "duration": "99:99"
-        },
-        {
-            "id": 6,
-            "title": "Skibidi",
-            "artist": "Je",
-            "album": "Jed man gud >:((",
-            "duration": "96:55"
-        },
-        {
-            "id": 6,
-            "title": "sdads",
-            "artist": "asdasd",
-            "album": "asdsad",
-            "duration": "02:03"
-        },
-        {
-            "id": 6,
-            "title": "sda",
-            "artist": "asd",
-            "album": "ada",
-            "duration": "02:03"
-        },
-        {
-            "id": 6,
-            "title": "adasd",
-            "artist": "asdadas",
-            "album": "asda",
-            "duration": "02:03"
-        },
-        {
-            "id": 6,
-            "title": "asd",
-            "artist": "asd",
-            "album": "asd",
-            "duration": "02:03"
-        },
-        {
-            "id": 6,
-            "title": "Shauntie",
-            "artist": "Velasco",
-            "album": "BSIT 2A",
-            "duration": "04:04"
         }
+
     ]
 }

@@ -2,6 +2,7 @@ import json
 from Track import Track
 from Queue import TrackQueue
 
+# messy, add more class rearrange
 class MusicLibrary:
     # def load_Track (self):
     #     data = json.load(file)
