@@ -6,7 +6,6 @@ from Queue import TrackQueue
 # Very messy OOP
 # Inefficient calcduration/totalduration
 # Queues wrong approach
-# Sugda na ang playlist!!!
 
 MENUS = {
     "main" : {
