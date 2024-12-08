@@ -1,0 +1,110 @@
+{
+    "Tracks": [
+        {
+            "id": 1,
+            "title": "Ah",
+            "artist": "Jae Sanchez",
+            "album": "Imong mama",
+            "duration": "123"
+        },
+        {
+            "id": 2,
+            "title": "Ba",
+            "artist": "Shauntie",
+            "album": "akong mama",
+            "duration": "224"
+        },
+        {
+            "id": 3,
+            "title": "Ca",
+            "artist": "Ken Tabianan",
+            "album": "atong mama",
+            "duration": "333"
+        },
+        {
+            "id": 4,
+            "title": "Da",
+            "artist": "ang mama",
+            "album": "nimoe",
+            "duration": "444"
+        }
+    ],
+    "Playlists": [
+        {
+            "Playlist1": [
+                {
+                    "id": 1,
+                    "title": "Ah",
+                    "artist": "Jae Sanchez",
+                    "album": "Imong mama",
+                    "duration": "123"
+                },
+                {
+                    "id": 2,
+                    "title": "Ba",
+                    "artist": "Shauntie",
+                    "album": "akong mama",
+                    "duration": "224"
+                },
+                {
+                    "id": 3,
+                    "title": "Ca",
+                    "artist": "Ken Tabianan",
+                    "album": "atong mama",
+                    "duration": "333"
+                },
+                {
+                    "id": 6,
+                    "title": "Fa",
+                    "artist": "aa",
+                    "album": "a",
+                    "duration": "123"
+                },
+                {
+                    "id": 5,
+                    "title": "Ea",
+                    "artist": "aaa lmao",
+                    "album": "hihi",
+                    "duration": "555"
+                },
+                {
+                    "id": 7,
+                    "title": "Ga",
+                    "artist": "asd",
+                    "album": "asd",
+                    "duration": "44"
+                },
+                {
+                    "id": 10,
+                    "title": "let",
+                    "artist": "dsfds",
+                    "album": "sdfsd",
+                    "duration": "203"
+                },
+                {
+                    "id": 11,
+                    "title": "sdsd",
+                    "artist": "sdfdsf",
+                    "album": "awd",
+                    "duration": "323"
+                },
+                {
+                    "id": 9,
+                    "title": "agere",
+                    "artist": "wewfsd",
+                    "album": "esfsd",
+                    "duration": "543"
+                }
+            ]
+        },
+        {
+            "Playlist2": []
+        },
+        {
+            "Playlist3": []
+        },
+        {
+            "playlist4": []
+        }
+    ]
+}
