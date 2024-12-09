@@ -1,0 +1,133 @@
+{
+    "Tracks": [
+        {
+            "id": 1,
+            "title": "sdadasd",
+            "artist": "asdadas",
+            "album": "imong mama",
+            "duration": "123"
+        },
+        {
+            "id": 2,
+            "title": "Hello",
+            "artist": "Imong mama",
+            "album": "Akong papa",
+            "duration": "444"
+        },
+        {
+            "id": 3,
+            "title": "Hello",
+            "artist": "Imong mama",
+            "album": "atong papa",
+            "duration": "555"
+        },
+        {
+            "id": 4,
+            "title": "Hihi",
+            "artist": "Imong mama",
+            "album": "Imong papa",
+            "duration": "222"
+        },
+        {
+            "id": 5,
+            "title": "sdadasd",
+            "artist": "asdadas",
+            "album": "imong mama",
+            "duration": "123"
+        },
+        {
+            "id": 6,
+            "title": "adasdada",
+            "artist": "asddsa",
+            "album": "asddad",
+            "duration": "123"
+        }
+    ],
+    "Playlists": [
+        {
+            "hi": [
+                {
+                    "id": 1,
+                    "title": "sdadasd",
+                    "artist": "asdadas",
+                    "album": "imong mama",
+                    "duration": "123"
+                },
+                {
+                    "id": 2,
+                    "title": "Hello",
+                    "artist": "Imong mama",
+                    "album": "Akong papa",
+                    "duration": "444"
+                },
+                {
+                    "id": 3,
+                    "title": "Hello",
+                    "artist": "Imong mama",
+                    "album": "atong papa",
+                    "duration": "555"
+                },
+                {
+                    "id": 4,
+                    "title": "Hihi",
+                    "artist": "Imong mama",
+                    "album": "Imong papa",
+                    "duration": "222"
+                },
+                {
+                    "id": 4,
+                    "title": "Hihi",
+                    "artist": "Imong mama",
+                    "album": "Imong papa",
+                    "duration": "222"
+                }
+            ]
+        },
+        {
+            "hello": []
+        },
+        {
+            "arcane": [
+                {
+                    "id": 6,
+                    "title": "adasdada",
+                    "artist": "asddsa",
+                    "album": "asddad",
+                    "duration": "123"
+                }
+            ]
+        },
+        {
+            "": [
+                {
+                    "id": 4,
+                    "title": "Hihi",
+                    "artist": "Imong mama",
+                    "album": "Imong papa",
+                    "duration": "222"
+                },
+                {
+                    "id": 4,
+                    "title": "Hihi",
+                    "artist": "Imong mama",
+                    "album": "Imong papa",
+                    "duration": "222"
+                },
+                {
+                    "id": 6,
+                    "title": "adasdada",
+                    "artist": "asddsa",
+                    "album": "asddad",
+                    "duration": "123"
+                },
+                {
+                    "id": 2,
+                    "title": "Hello",
+                    "artist": "Imong mama",
+                    "album": "Akong papa",
+                    "duration": "444"
+                }
+            ]
+        }
+    ]
+}
